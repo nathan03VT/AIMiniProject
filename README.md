@@ -17,26 +17,6 @@ You can install the required dependencies using pip:
 pip install torch tqdm mltu
 ```
 
-## Usage
-
-1. Clone this repository to your local machine:
-
-```
-git clone <repository-url>
-```
-
-2. Navigate to the repository directory:
-
-```
-cd handwriting-recognition
-```
-
-3. Run the main script to train the handwriting recognition model:
-
-```
-python train_model.py
-```
-
 ## Model Architecture
 
 The model architecture consists of convolutional neural network (CNN) layers followed by a long short-term memory (LSTM) layer. The CNN layers extract features from input images, while the LSTM layer processes the extracted features to recognize sequences of characters.
